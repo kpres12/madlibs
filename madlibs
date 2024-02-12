@@ -1,0 +1,10 @@
+print("Hey there, let's play some madlibs!")
+
+adj = input("Give me an adjective: ")
+verb1 = input("Give me a verb: ")
+verb2 = input("Give me another verb: ")
+famous_person = input("Name a famous person: ")
+
+madlib = f"I think programming is so {adj.capitalize()}! It makes me so excited all the time because I love to {verb1} when I'm not coding. Stay hydrated and {verb2} like you are {famous_person.capitalize()}!"
+
+print(madlib)
